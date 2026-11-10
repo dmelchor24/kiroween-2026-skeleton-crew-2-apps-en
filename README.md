@@ -13,6 +13,22 @@ This project competes in the **Skeleton Crew** category: a minimalist template (
 | PWA | `pwa/` | Installable on iPhone and Mac: manifest, service worker, icons and iOS settings. |
 Both are generated from the same specs and share the backend in `infra/`. The `.kiro/` folder (specs, hooks and steering) is versioned in full because it is the core of the project.
 It also includes an AWS documentation MCP server; in this project it makes sure that, when writing the SAM template, it is based on current documentation.
+## Try the applications
+Both applications are already deployed, so judges and visitors can try them right away without downloading anything.
+> Building the project from scratch is a different path: you need to download this repository, open it in Kiro and run the specs and hooks (see [Getting started](#getting-started)) so your own artifacts and AWS resources are generated. The deployed apps below skip all of that.
+### Test credentials
+Use this demo user to sign in to either application:
+| Field | Value |
+|---|---|
+| Email | `test@gmail.com` |
+| Password | `Kirocrew2026!` |
+Login requires a 6-digit MFA code. On your first sign-in, scan the QR code with an authenticator app (Google Authenticator, Authy, 1Password, etc.) and enter the code it shows.
+### Web application access
+The web version of the app, used from the browser.
+- Link: _coming soon_
+### PWA application access
+The installable version of the app (iPhone and Mac).
+- Link: _coming soon_
 ## What you need before starting
 | Tool | What for | Check |
 |---|---|---|
