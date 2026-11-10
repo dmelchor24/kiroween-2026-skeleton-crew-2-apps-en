@@ -20,15 +20,15 @@ Both applications are already deployed, so judges and visitors can try them righ
 Use this demo user to sign in to either application:
 | Field | Value |
 |---|---|
-| Email | `test@gmail.com` |
+| Email | `test1@gmail.com` |
 | Password | `Kirocrew2026!` |
 Login requires a 6-digit MFA code. On your first sign-in, scan the QR code with an authenticator app (Google Authenticator, Authy, 1Password, etc.) and enter the code it shows.
 ### Web application access
 The web version of the app, used from the browser.
-- Link: _coming soon_
+- Link: https://kiroween-web.netlify.app/
 ### PWA application access
 The installable version of the app (iPhone and Mac).
-- Link: _coming soon_
+- Link: https://kiroween-pwa.netlify.app/
 ## What you need before starting
 | Tool | What for | Check |
 |---|---|---|
